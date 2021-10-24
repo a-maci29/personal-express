@@ -1,0 +1,59 @@
+body {
+    color: white;
+    font-family: 'Mate SC', serif;
+
+    background-image: url("bookbg.jpg");
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;    
+
+}
+
+p {
+    margin-top: .2em;
+}
+
+p:hover {
+    transition: background-color .5s;
+    color: hotpink;
+    font-size: 1em;
+  }
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    margin-bottom: 0em;
+    color: white;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: .1em;
+}
+
+#content {
+    position: relative;
+    background-color: rgba(255, 255, 255, .00);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #content > section {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
